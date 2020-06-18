@@ -2,10 +2,59 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int i;
+
+    cin >> i;
+
+   /* if (i == 1)
+        cout << "shanbeh" << endl;
+    else if (i == 2)
+    cout << "yekhanbeh" << endl;
+    else if (i == 3)
+        cout << "doshanbeh" << endl;
+    else if (i == 4)
+        cout << "seshanbeh" << endl;
+    else if (i == 5)
+        cout << "charshanbeh" << endl;
+    else if (i == 6)
+        cout << "panjshanbeh" << endl;
+    else if (i == 7)
+        cout << "jomeh" << endl;*/
+    switch (i)
+    {
+    case 1:
+            cout << "shanbeh" << endl;
+            break;
+    case 2:
+            cout << "yekhanbeh" << endl;
+            break;
+    case 3:
+            cout << "doshanbeh" << endl;
+            break;
+    case 4:
+            cout << "seshanbeh" << endl;
+            break;
+    case 5:
+            cout << "charshanbeh" << endl;
+            break;
+    case 6: 
+            cout << "panjshanbeh" << endl;
+            break;
+    case   7:
+            cout << "jomeh" << endl;
+            break;
+
+    default:
+        cout << "day < 7";
+        break;
+    }
+    
+   
+       
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
